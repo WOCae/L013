@@ -10,7 +10,8 @@ config_version=5
 
 [application]
 
-config/name="L 013"
+config/name="L013"
+run/main_scene="res://main.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
 

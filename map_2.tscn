@@ -7,3 +7,7 @@ script = ExtResource("1_irq2x")
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
 polygon = PackedVector2Array(41, 108, 166, 107, 193, 177, 163, 291, 47, 227)
+
+[node name="Line2D" type="Line2D" parent="."]
+points = PackedVector2Array(46, 227, 40, 108, 165, 105, 194, 176, 162, 292)
+closed = true

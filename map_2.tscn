@@ -1,6 +1,10 @@
-[gd_scene format=3 uid="uid://dvg35q1sv0w0m"]
+[gd_scene format=3 uid="uid://dwflhyq3c2f6j"]
 
 [node name="MAP2" type="StaticBody2D"]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
 polygon = PackedVector2Array(41, 108, 166, 107, 193, 177, 163, 291, 47, 227)
+
+[node name="Line2D" type="Line2D" parent="."]
+points = PackedVector2Array(46, 226, 40, 108, 167, 108, 190, 174, 162, 290)
+closed = true

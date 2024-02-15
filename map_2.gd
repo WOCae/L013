@@ -3,7 +3,7 @@ extends StaticBody2D
 var velocity = Vector2()
 func _process(delta):
 	
-	velocity.y = 100
+	velocity.y = 1000
 
 	position += velocity * delta
 

@@ -1,6 +1,6 @@
 extends Node2D
 
-var map2 = preload("res://stage1/map_2.tscn")
+var map2 = preload("res://stage1/s_map_2.tscn")
 
 
 func _ready():

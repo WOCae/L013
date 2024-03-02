@@ -17,3 +17,5 @@ func _process(delta: float) -> void:
 		
 	if Input.is_action_pressed("ui_down"):
 		$Camera2D.position.y += Dpos*delta
+
+	$ParallaxBackground/ParallaxLayer/Sprite2D.position.x -= 100*delta

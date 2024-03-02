@@ -19,3 +19,4 @@ func _process(delta: float) -> void:
 		$Camera2D.position.y += Dpos*delta
 
 	$ParallaxBackground/ParallaxLayer/Sprite2D.position.x -= 100*delta
+	$ParallaxBackground/ParallaxLayer/Sprite2D.rotation += 1*delta	
